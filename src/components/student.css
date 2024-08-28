@@ -1,0 +1,175 @@
+
+
+.a{
+font-weight: bolder;
+color: balck;
+text-align: center;
+}
+
+.b{
+color: white;
+background-color: skyblue;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.name{
+display: inline-flex;
+line-height: 2px ;
+margin-bottom: 25px;
+gap: 10px;
+margin-left: 10px;
+width: 300px;
+}
+.name input{
+height: auto;
+margin-left: 35px;
+border-radius: 5%;
+border-color: black;
+
+}
+
+
+.email{
+    display: inline-flex;
+    line-height: 2px ;
+    gap: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    width: 300px;
+    }
+    .email input{
+    height: auto;
+    margin-left: 38px;
+    border-radius: 5%;
+    border-color: black;
+    /* margin-left: 10px; */
+    }
+
+    
+.web{
+    display: inline-flex;
+    line-height: 2px ;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    width: 300px;
+    }
+    .web input{
+    height: auto;
+    margin-left: 30px;
+    border-radius: 5%;
+    border-color: black;
+    margin-right: 20px;
+    }
+
+    
+.img{
+    display: inline-flex;
+    line-height: 2px ;
+    
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+    }
+    .img input{
+    height: auto;
+    margin-left: 15px;
+    border-radius: 5%;
+    border-color: #000000;
+    
+    }
+
+
+    .info{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .gender {
+        display: flex;
+        align-items: center; /* Align items vertically in the center */
+        font-size: 16px; /* Adjust font size if needed */
+        margin-left: 10px; /* Margin for positioning */
+        margin-bottom: 25px; /* Space below the gender section */
+    }
+    
+    .gender p {
+        margin-right: 20px; /* Space between "Gender" text and options */
+        font-weight: bold;
+        margin: 0; /* Remove default margin */
+    }
+    
+    .options {
+        display: flex;
+        gap: 10px; /* Space between the radio button-label pairs */
+        flex-direction: row; /* Align radio buttons and labels horizontally */
+        align-items: center; /* Align items vertically in the center */
+    }
+    
+    .options label {
+        margin-left: 5px; /* Space between radio button and label */
+    }
+
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        align-items: center; /* Align items vertically centered */
+        gap: 10px; /* Space between checkboxes and labels */
+    }
+    
+    .skills p {
+        margin-right: 10px; /* Space between "Skills" text and checkboxes */
+        font-weight: bold; /* Make "Skills" text bold */
+       
+    }
+    
+    .skills label {
+        margin-left: 5px; /* Space between checkbox and label */
+    }
+
+    .btn{
+    display: flex;
+    margin-left: 50px;
+    
+    gap: 10px;
+    }
+
+    .enroll{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 2%;
+    /* gap: 10px; */
+    }
+
+    .clear
+    {
+    
+    background-color: red;
+    color: white;
+    border-radius: 2%;
+    padding: 10px;
+    }
+    
+ 
+    .vl {
+        border-right: 2px solid #57cefd;
+        height: 400px; /* Span the full height of the viewport */
+        position: absolute; /* Ensure it spans the height correctly */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Adjust for true center alignment */
+      }
+
+
+    .student-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 55%;
+    position: absolute;
+    flex-direction: column;
+   bottom: 50%;
+   top: 30%;
+    }
